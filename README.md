@@ -1,10 +1,10 @@
-# Mini Shell in C 🐚  
+# C-- Shell  
 
-## 📜 Description  
+## Description  
 
 This project implements a mini UNIX-like shell, written in C, that provides an interactive environment for executing commands. The shell includes user authentication and manually implemented system commands without relying on external system calls like `system()`.  
 
-## 🔹 Key Features  
+## Key Features  
 
 - **Custom Shell Environment** – Provides an interactive terminal for executing supported commands.  
 - **User Authentication** – Requires users to log in with valid credentials stored in `passwords.txt` before executing commands.  
@@ -31,9 +31,3 @@ This project implements a mini UNIX-like shell, written in C, that provides an i
 - **`system.c`** – Custom implementation of `system()` for command execution.  
 - **`ls.c`**, **`cat.c`**, **`first.c`**, **`last.c`** – Custom implementations of UNIX commands.  
 - **`passwords.txt`** – Stores usernames and passwords.  
-
-## 🎯 Project Goal  
-
-The purpose of this project is to deepen the understanding of UNIX shell functionalities by implementing a simplified version with essential commands and authentication. By avoiding direct reliance on system calls like `system()`, this mini shell enhances knowledge of process control, file handling, and command execution in C.  
-
----
